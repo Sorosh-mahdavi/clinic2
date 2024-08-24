@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-bottom: 100px;
 }
 .header{
     display: flex;
@@ -33,16 +34,18 @@ body{
     gap: 50px;
     justify-content: right;
     margin-right: 110px;
-
+    height: 50px;
     color: rgb(0, 0, 77);
 border: 1px solid rgb(221, 218, 218);
 justify-content: end;
+align-items: center;
 }
 .info1{
     font-size: 19px;
     display: flex;
     flex-direction:row;
     gap: 10px ;
+
     
 
 
@@ -84,13 +87,128 @@ margin-bottom: -20px;
     padding-left: 18px;
     margin-top: 0;
 }
-.title{
-    justify-content: end;
-    text-align: end;
-
-    display:flex;
+.sec-p{
+    width: 370px;
+    margin-right: 100px;
+}
+.totall-text{
+    background-color: rgb(219, 219, 219);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 40px;
+    transition:transform 0.3s ease ;
+    cursor: pointer;
 
 }
-.sec-p{
-    width: 400px;
+.total-text:hover{
+    transform: scale(1.2);
+}
+.ul{
+    font-size: 25px;
+   justify-content: left;
+}
+.ul2{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+}
+.tot{
+    display: flex;
+    flex-direction: column;
+}
+.imgd{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin-top: -100px;
+}
+.button{
+    padding: 10px;
+    width: 150px;
+    background-color: coral;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(247, 93, 37);
+    transform: scale(1.1);
+
+}
+.buttono{
+    justify-content: right;
+    align-items: end;
+    display: flex;
+    flex-direction: row;
+    margin-right: 305px;
+    margin-top: 50px;
+    
+}
+.test{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.test1{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 40px;
+    justify-content: space-around;
+    
+}
+.testt{
+    width: 300px;
+    height: 250px;
+    
+    
+}
+.text-soft{
+    justify-content: center;
+    text-align: center ;
+    font-size: 25px;
+    margin-top: 45px;
+}
+.test-div{
+    border: 1px solid rgb(218, 217, 217);
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+
+}
+.ori{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+.orange{
+    background-color: orange;
+    padding: 90px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.orange:hover{
+    transform: scale(1.2);}
+
+.svgg{
+    width: 50px;
+}
+.erte{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    
+    cursor: pointer;
 }
